@@ -1,0 +1,14 @@
+yaml:
+
+  - name: some name
+  - type: some type
+
+other:
+  - name: bla bla
+    #- name: Register uid of {{linux_desktop_user}}
+    #  changed_when: false
+
+    systemd:
+      something: else
+
+# my comment
